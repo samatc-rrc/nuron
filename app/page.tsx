@@ -35,9 +35,13 @@ export default function Home() {
             <br />
             <span className="text-nuron-red">Masterclass</span>
           </h1>
-          <p className="mt-5 max-w-2xl text-lg text-slate-200">
-            เปลี่ยนจาก &ldquo;คนดู&rdquo; ให้เป็น &ldquo;คนทำ&rdquo;
-            เปลี่ยนคลิปรีวิวให้เป็นรายได้หลัก บน 5 แพลตฟอร์มยักษ์ใหญ่
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-slate-200">
+            หยุดเป็นแค่ &ldquo;คนดู&rdquo; — เริ่มเป็น{" "}
+            <span className="font-bold text-white">&ldquo;คนทำเงิน&rdquo;</span>{" "}
+            เปลี่ยน<span className="font-semibold text-white">ทุกคลิปรีวิว</span>
+            ให้กลายเป็น{" "}
+            <span className="font-bold text-nuron-red">รายได้จริง</span> บน{" "}
+            <span className="font-semibold text-white">5 แพลตฟอร์มยักษ์ใหญ่</span>
           </p>
           <div className="mt-7 flex flex-wrap gap-2.5">
             {PLATFORMS.map((p) => (
