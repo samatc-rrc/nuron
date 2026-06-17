@@ -1,12 +1,14 @@
 import Image from "next/image";
+import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa6";
+import { SiShopee } from "react-icons/si";
 import RegisterForm from "./components/RegisterForm";
 
 const PLATFORMS = [
-  { icon: "🛒", name: "Shopee" },
-  { icon: "⚫", name: "TikTok" },
-  { icon: "🔵", name: "Facebook" },
-  { icon: "🔴", name: "YouTube" },
-  { icon: "🟣", name: "Instagram" },
+  { Icon: SiShopee, name: "Shopee", color: "#EE4D2D" },
+  { Icon: FaTiktok, name: "TikTok", color: "#ffffff" },
+  { Icon: FaFacebookF, name: "Facebook", color: "#1877F2" },
+  { Icon: FaYoutube, name: "YouTube", color: "#FF0000" },
+  { Icon: FaInstagram, name: "Instagram", color: "#E4405F" },
 ];
 
 const LEARNINGS = [
@@ -64,7 +66,7 @@ export default function Home() {
                 key={p.name}
                 className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-medium ring-1 ring-white/15"
               >
-                <span>{p.icon}</span>
+                <p.Icon aria-hidden className="text-base" style={{ color: p.color }} />
                 {p.name}
               </span>
             ))}
