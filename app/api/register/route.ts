@@ -51,7 +51,7 @@ export async function POST(request: Request) {
     errors.has_bought = "ค่าไม่ถูกต้อง";
 
   if (hasSold !== YES && hasSold !== NO)
-    errors.has_sold = "กรุณาเลือกว่าเคยขายผ่าน Social affiliate หรือไม่";
+    errors.has_sold = "กรุณาเลือกว่าเคยขายผ่าน Social Affiliate หรือไม่";
 
   // Conditional: product category only required when they have sold before.
   if (hasSold === YES && !soldCategory)

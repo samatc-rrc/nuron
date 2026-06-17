@@ -203,7 +203,7 @@ export default function RegisterForm() {
       {/* Has bought (optional) */}
       <div data-error={!!errors.has_bought}>
         <label className={labelClass}>
-          คุณเคยซื้อสินค้าผ่าน Social affiliate มาก่อนหรือไม่?
+          คุณเคยซื้อสินค้าผ่าน Social Affiliate มาก่อนหรือไม่?
         </label>
         <RadioGroup
           name="has_bought"
@@ -216,7 +216,7 @@ export default function RegisterForm() {
       {/* Has sold (required) */}
       <div data-error={!!errors.has_sold}>
         <label className={labelClass}>
-          คุณเคยขายสินค้าผ่าน Social affiliate มาก่อนหรือไม่?
+          คุณเคยขายสินค้าผ่าน Social Affiliate มาก่อนหรือไม่?
           <Required />
         </label>
         <RadioGroup
@@ -231,7 +231,7 @@ export default function RegisterForm() {
       {form.has_sold === YES && (
         <div data-error={!!errors.sold_category}>
           <label className={labelClass} htmlFor="sold_category">
-            ถ้าเคยขายผ่าน Social affiliate คุณขายสินค้าประเภทใด?
+            ถ้าเคยขายผ่าน Social Affiliate คุณขายสินค้าประเภทใด?
             <Required />
           </label>
           <input
