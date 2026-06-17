@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa6";
 import { SiShopee } from "react-icons/si";
 import RegisterForm from "./components/RegisterForm";
@@ -24,26 +23,6 @@ const LEARNINGS = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f7f8fa]">
-      {/* Header */}
-      <header className="border-b border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
-          <Image
-            src="/nuron-logo.jpg"
-            alt="NURON Marketing media"
-            width={48}
-            height={48}
-            priority
-            className="h-12 w-12 object-contain"
-          />
-          <a
-            href="#register"
-            className="rounded-full bg-nuron-red px-5 py-2 text-sm font-bold text-white transition hover:bg-nuron-red-dark"
-          >
-            ลงทะเบียน
-          </a>
-        </div>
-      </header>
-
       {/* Hero */}
       <section className="relative overflow-hidden bg-nuron-navy text-white">
         <div className="absolute -right-24 -top-24 h-72 w-72 rotate-45 rounded-3xl bg-nuron-red/20 blur-3xl" />
