@@ -296,9 +296,6 @@ export default function RegisterForm() {
       >
         {submitting ? "กำลังส่ง..." : "ลงทะเบียนเลย"}
       </button>
-      <p className="text-center text-xs text-slate-400">
-        ฟรี! ไม่มีค่าใช้จ่าย
-      </p>
     </form>
   );
 }
