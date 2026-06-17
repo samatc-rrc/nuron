@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nuron-red: #e11b22;
+  --color-nuron-red-dark: #b8141a;
+  --color-nuron-navy: #1b2b57;
+  --color-nuron-navy-light: #2c3f73;
+  --font-sans: "Noto Sans Thai", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #f7f8fa;
+  color: #1b2b57;
+}
