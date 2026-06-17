@@ -54,7 +54,7 @@ export default function Home() {
           <h1 className="mt-5 text-4xl font-extrabold leading-tight sm:text-5xl">
             Affiliate Marketing
             <br />
-            <span className="text-nuron-red">Masterclass</span> 🚀
+            <span className="text-nuron-red">Masterclass</span>
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-slate-200">
             เปลี่ยนจาก &ldquo;คนดู&rdquo; ให้เป็น &ldquo;คนทำ&rdquo;
@@ -75,7 +75,7 @@ export default function Home() {
             href="#register"
             className="mt-9 inline-block rounded-xl bg-nuron-red px-8 py-4 text-lg font-bold text-white shadow-lg shadow-nuron-red/30 transition hover:bg-nuron-red-dark"
           >
-            ลงทะเบียนฟรีเลย →
+            ลงทะเบียนฟรีเลย
           </a>
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="space-y-4">
             <div className="rounded-2xl bg-white p-6 ring-1 ring-slate-100">
               <h2 className="text-xl font-bold text-nuron-navy">
-                💸 เงินไม่ได้หายไปไหน แต่มันย้ายที่! 📱
+                เงินไม่ได้หายไปไหน แต่มันย้ายที่!
               </h2>
               <p className="mt-2 text-slate-600">
                 เมื่อก่อนคนเดินห้าง แต่เดี๋ยวนี้คนช้อปผ่านจอมือถือตลอด 24 ชม.
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
             <div className="rounded-2xl bg-white p-6 ring-1 ring-slate-100">
               <h2 className="text-xl font-bold text-nuron-navy">
-                🎥 แค่รีวิวเป็น...ก็เห็นขุมทรัพย์! 💰
+                แค่รีวิวเป็น...ก็เห็นขุมทรัพย์!
               </h2>
               <p className="mt-2 text-slate-600">
                 อยากมีรายได้เสริม แต่ไม่รู้จะเริ่มตรงไหน? คอร์สนี้มีคำตอบ
@@ -106,7 +106,7 @@ export default function Home() {
 
           <div>
             <h2 className="text-2xl font-bold text-nuron-navy">
-              ✅ สิ่งที่จะได้เรียนรู้
+              สิ่งที่จะได้เรียนรู้
             </h2>
             <ul className="mt-4 space-y-3">
               {LEARNINGS.map((item) => (
@@ -114,7 +114,7 @@ export default function Home() {
                   key={item}
                   className="flex gap-3 rounded-xl bg-white p-4 ring-1 ring-slate-100"
                 >
-                  <span className="mt-0.5 text-nuron-red">✔</span>
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-nuron-red" />
                   <span className="text-slate-700">{item}</span>
                 </li>
               ))}
@@ -129,22 +129,22 @@ export default function Home() {
             <h2 className="text-xl font-bold">รายละเอียดงาน</h2>
             <dl className="mt-4 space-y-3 text-slate-100">
               <div className="flex gap-3">
-                <dt>📅</dt>
+                <dt className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-nuron-red" />
                 <dd>วันอาทิตย์ที่ 28 มิ.ย. 69</dd>
               </div>
               <div className="flex gap-3">
-                <dt>🕘</dt>
+                <dt className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-nuron-red" />
                 <dd>เวลา 09.00 น. - 16.00 น.</dd>
               </div>
               <div className="flex gap-3">
-                <dt>📍</dt>
+                <dt className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-nuron-red" />
                 <dd>
                   ห้องประชุมคณะการแพทย์และวิทยาศาสตร์สุขภาพ
                   มหาวิทยาลัยฟาฏอนี
                 </dd>
               </div>
               <div className="flex gap-3">
-                <dt>🔥</dt>
+                <dt className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-white" />
                 <dd className="font-bold text-white">
                   เรียนฟรี! ไม่มีค่าใช้จ่าย
                 </dd>

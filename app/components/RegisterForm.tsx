@@ -109,8 +109,19 @@ export default function RegisterForm() {
   if (done) {
     return (
       <div className="rounded-3xl bg-white p-8 text-center shadow-xl shadow-nuron-navy/5 ring-1 ring-slate-100">
-        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 text-3xl">
-          ✅
+        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
+          <svg
+            className="h-8 w-8 text-green-600"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={3}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
         </div>
         <h3 className="text-2xl font-bold text-nuron-navy">
           ลงทะเบียนสำเร็จ!
@@ -283,7 +294,7 @@ export default function RegisterForm() {
         disabled={submitting}
         className="w-full rounded-xl bg-nuron-red px-6 py-4 text-lg font-bold text-white shadow-lg shadow-nuron-red/30 transition hover:bg-nuron-red-dark disabled:cursor-not-allowed disabled:opacity-60"
       >
-        {submitting ? "กำลังส่ง..." : "ลงทะเบียนเลย 🚀"}
+        {submitting ? "กำลังส่ง..." : "ลงทะเบียนเลย"}
       </button>
       <p className="text-center text-xs text-slate-400">
         ฟรี! ไม่มีค่าใช้จ่าย

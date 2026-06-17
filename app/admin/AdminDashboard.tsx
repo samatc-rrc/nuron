@@ -57,7 +57,7 @@ export default function AdminDashboard({ rows }: { rows: Registration[] }) {
               href="/api/admin/export"
               className="rounded-xl bg-nuron-red px-4 py-2.5 text-sm font-bold text-white transition hover:bg-nuron-red-dark"
             >
-              ⬇ ดาวน์โหลด CSV
+              ดาวน์โหลด CSV
             </a>
             <button
               onClick={logout}
