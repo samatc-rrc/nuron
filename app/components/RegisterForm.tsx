@@ -294,7 +294,7 @@ export default function RegisterForm() {
         disabled={submitting}
         className="w-full rounded-xl bg-nuron-red px-6 py-4 text-lg font-bold text-white shadow-lg shadow-nuron-red/30 transition hover:bg-nuron-red-dark disabled:cursor-not-allowed disabled:opacity-60"
       >
-        {submitting ? "กำลังส่ง..." : "ลงทะเบียนเลย"}
+        {submitting ? "กำลังส่ง..." : "ลงทะเบียน"}
       </button>
     </form>
   );
