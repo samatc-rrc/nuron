@@ -58,7 +58,7 @@ export default function Home() {
             href="#register"
             className="mt-9 inline-block rounded-xl bg-nuron-red px-8 py-4 text-lg font-bold text-white shadow-lg shadow-nuron-red/30 transition hover:bg-nuron-red-dark"
           >
-            ลงทะเบียนฟรีเลย
+            ลงทะเบียนฟรี
           </a>
         </div>
       </section>
