@@ -70,11 +70,11 @@ export default function Home() {
           <div className="space-y-4">
             <div className="rounded-2xl bg-white p-6 ring-1 ring-slate-100">
               <h2 className="text-xl font-bold text-nuron-navy">
-                เงินไม่ได้หายไปไหน แต่มันย้ายที่!
+                ลูกค้าไม่ได้หายไป แค่เปลี่ยนที่อยู่!
               </h2>
               <p className="mt-2 text-slate-600">
-                เมื่อก่อนคนเดินห้าง แต่เดี๋ยวนี้คนช้อปผ่านจอมือถือตลอด 24 ชม.
-                นี่คือโอกาสมหาศาลของคนทำคอนเทนต์!
+                วันนี้การตัดสินใจซื้อเกิดขึ้นบนหน้าจอ ไม่ใช่หน้าร้าน
+                ใครเข้าถึงคนดูก่อน คนนั้นได้เปรียบ แล้วคุณล่ะ พร้อมหรือยัง?
               </p>
             </div>
             <div className="rounded-2xl bg-white p-6 ring-1 ring-slate-100">
